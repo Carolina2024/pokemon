@@ -1,9 +1,9 @@
-# React + Vite
+# Router II - Poke API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requerimientos
 
-Currently, two official plugins are available:
+1. Asignar una clase `active` a la ruta que el usuario consulte usando `NavLink`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# pokemon
+2. Redireccionar programáticamente al usuario usando el hook `useNavigate`.
+
+3. Obtener parámetros de la URL usando el hook `useParams`.
